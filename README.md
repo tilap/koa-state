@@ -1,14 +1,15 @@
-﻿# Koa state
+﻿Koa state [![NPM version][npm-image]][npm-url]
+============================
 
-Simple state layer middleware for Koa. As mentionned in official [koajs](http://koajs.com/):
+Simple state layer middleware **for Koa 2**. As mentionned in official [koajs](http://koajs.com/):
 
->>> ctx.state
+> ctx.state
 The recommended namespace for passing information through middleware and to your frontend views.
 
 ## Install
 
 ```
-npm --save install koa-state
+npm install --save koa-state
 ```
 
 ## Usage
@@ -43,3 +44,8 @@ You can customize the context key with ```app.use(koaState('contextKey'));```
 ## License
 
 MIT
+
+
+
+[npm-image]: https://img.shields.io/npm/v/koa-state.svg?style=flat
+[npm-url]: https://npmjs.org/package/koa-state
